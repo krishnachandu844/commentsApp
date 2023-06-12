@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add-comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+input {
+  margin: 10px;
+}
+.textArea {
+  margin: 10px;
+}
+.btn {
+  color: #ffff;
+  background-color: #0284c7;
+  margin: 10px;
+  border-radius: 5px;
+  border-width: 0px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.heading {
+  padding: 10px;
+}
+.para-1 {
+  color: #475569;
+  padding: 10px;
+}
+.comments-container {
+  display: flex;
+}
+.img {
+  padding: 30px;
+}
+.line {
+  border: 0.2px solid #475569;
+  width: 100%;
+  width: 800px;
+}
+.Comments-count {
+  background-color: #0284c7;
+  padding: 10px;
+  margin-right: 3px;
+  color: #fff;
+  border-radius: 2px;
+}
+.comment-co {
+  margin-right: 650px;
+}
